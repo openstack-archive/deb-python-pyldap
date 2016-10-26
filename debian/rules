@@ -17,8 +17,8 @@ ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
 endif
 
 override_dh_sphinxdoc:
-        PYTHONPATH=. sphinx-build -b html Doc debian/python-pyldap-doc/usr/share/doc/python-pyldap-doc/html
-        dh_sphinxdoc -O--buildsystem=python_distutils
+	PYTHONPATH=. sphinx-build -b html Doc debian/python-pyldap-doc/usr/share/doc/python-pyldap-doc/html
+	dh_sphinxdoc -O--buildsystem=python_distutils
 
 override_dh_clean:
 	dh_clean -O--buildsystem=python_distutils
