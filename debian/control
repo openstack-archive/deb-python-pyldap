@@ -57,7 +57,7 @@ Section: doc
 Architecture: all
 Depends: ${misc:Depends},
          ${sphinxdoc:Depends},
-Description: implements an LDAP client - Python 3.x
+Description: implements an LDAP client - doc
  Pyldap is a fork of python-ldap, and provides an object-oriented API to access
  LDAP directory servers from Python programs. Mainly it wraps the OpenLDAP 2.x
  libs for that purpose.
