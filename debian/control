@@ -50,3 +50,19 @@ Description: implements an LDAP client - Python 3.x
  controls, etc.).
  .
  This package contains the Python 3.x module.
+
+Package: python-pyldap-doc
+Section: doc
+Architecture: all
+Depends: ${misc:Depends},
+         ${sphinxdoc:Depends},
+Description: implements an LDAP client - Python 3.x
+ Pyldap is a fork of python-ldap, and provides an object-oriented API to access
+ LDAP directory servers from Python programs. Mainly it wraps the OpenLDAP 2.x
+ libs for that purpose.
+ .
+ Additionally the package contains modules for other LDAP-related stuff (e.g.
+ processing LDIF, LDAPURLs, LDAPv3 schema, LDAPv3 extended operations and
+ controls, etc.).
+ .
+ This package is providing the documentation.
