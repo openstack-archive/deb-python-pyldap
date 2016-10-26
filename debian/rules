@@ -3,10 +3,6 @@
 UPSTREAM_GIT := https://github.com/pyldap/pyldap.git
 include /usr/share/openstack-pkg-tools/pkgos.make
 
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-DPKG_EXPORT_BUILDFLAGS = 1
-include /usr/share/dpkg/buildflags.mk
-
 %:
 	dh $@ --buildsystem=python_distutils --with python2,python3
 
