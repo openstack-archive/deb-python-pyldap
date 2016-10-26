@@ -3,7 +3,7 @@ Upstream-Name: pyldap
 Source: https://github.com/pyldap/pyldap/
 
 Files: *
-Copyright: (c) 2008-2015, pyldap project project team
+Copyright: (c) 2008-2015, pyldap project team
            (c) 2008-2015, Federico Di Gregorio <fog at mixadlive.com>
            (c) 2008-2015, John Benninghoff <johnb at netscape.com>
            (c) 2008-2015, Donn Cave <donn at u.washington.edu>
