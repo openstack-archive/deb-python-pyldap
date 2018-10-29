@@ -15,4 +15,5 @@ if sys.version_info[0] < 3:
         return unquoted.decode('utf-8')
 else:
     from collections import UserDict
-    from urllib.parse import quote, unquote, urlparse
+	from six.moves.urllib.parse import urlparse
+    from urllib.parse import quote, unquote
